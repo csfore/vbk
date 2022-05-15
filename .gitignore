@@ -1,0 +1,14 @@
+# Binaries for programs and plugins
+main
+backup
+*.exe
+*.exe~
+*.so
+*.dylib
+*.dll
+vls.log
+
+# Local stuff for testing
+back/
+dst/
+.editorconfig
