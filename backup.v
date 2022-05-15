@@ -15,7 +15,7 @@ fn main() {
 	copy_dir = os.expand_tilde_to_home(copy_dir)
 
 	// Checking if the output directories exist
-	if os.exists(os.dir(output)  {
+	if os.exists(os.dir(output)) {
 		backup(copy_dir, output)
 	} else {
 		dir_check_fail := os.input('The directory you specified does not exist, would you like to create it?\nAnswer (y or n): ')
